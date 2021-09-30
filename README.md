@@ -10,3 +10,7 @@
 - [x] Vite による TypeScript+React のビルド
 - [x] web-ext との連携
 - [ ] 動作する Web Extensions の記述
+
+## ドキュメント
+
+[ブラウザー拡張機能 - Mozilla | MDN](https://developer.mozilla.org/ja/docs/Mozilla/Add-ons/WebExtensions)
