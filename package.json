@@ -1,0 +1,64 @@
+{
+  "name": "web-ext-sample",
+  "description": "Web Extentions Sample",
+  "version": "1.0.0",
+  "author": "Kimiaki Kuno <knokmki612@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/tuqulore/web-ext-sample/issues"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "1.0.1",
+    "@types/jest": "27.0.2",
+    "@types/react": "^17.0.24",
+    "@types/react-dom": "^17.0.9",
+    "@types/webextension-polyfill": "^0.8.0",
+    "@typescript-eslint/eslint-plugin": "4.31.2",
+    "@typescript-eslint/parser": "4.31.2",
+    "@vitejs/plugin-react": "^1.0.1",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-formatter-rdjson": "1.0.5",
+    "eslint-plugin-jest": "24.4.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.26.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-tsc": "2.0.0",
+    "jest": "27.2.2",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.4.1",
+    "rollup-plugin-copy": "^3.4.0",
+    "ts-jest": "27.0.5",
+    "typescript": "4.4.3",
+    "vite": "^2.5.10",
+    "web-ext": "^6.4.0",
+    "webextension-polyfill": "^0.8.0"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "homepage": "https://github.com/tuqulore/web-ext-sample#readme",
+  "keywords": [
+    "webextension"
+  ],
+  "license": "MIT",
+  "main": "/src/main.ts",
+  "repository": "git@github.com:tuqulore/web-ext-sample.git",
+  "scripts": {
+    "build": "run-s build:{vite,web-ext}",
+    "build:vite": "vite build",
+    "build:web-ext": "web-ext --source-dir dist build",
+    "dev": "vite",
+    "dev:web-ext": "web-ext --source-dir dist run",
+    "format": "run-s format:*",
+    "format:eslint": "eslint --fix .",
+    "format:prettier": "prettier --write .",
+    "lint": "eslint .",
+    "lint:rdjson": "eslint --format rdjson .",
+    "serve": "run-s build:vite dev:web-ext",
+    "test": "jest --passWithNoTests"
+  }
+}
