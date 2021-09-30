@@ -1,4 +1,4 @@
-# Web Extentions Sample
+# Web Extensions Sample
 
 ## 使い方
 
@@ -9,4 +9,4 @@
 
 - [x] ViteによるTypeScript+Reactのビルド
 - [x] web-extとの連携
-- [ ] 動作するWeb Extentionsの記述
+- [ ] 動作するWeb Extensionsの記述

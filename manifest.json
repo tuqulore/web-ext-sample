@@ -1,7 +1,7 @@
 {
-  "description": "Web Extentions Sample",
+  "description": "Web Extensions Sample",
   "manifest_version": 2,
-  "name": "Web Extentions Sample",
+  "name": "Web Extensions Sample",
   "version": "1.0.0",
   "homepage_url": "https://github.com/tuqulore/web-ext-sample",
   "icons": [
@@ -12,7 +12,7 @@
   ],
   "browser_action": {
     "default_icon": "icons/48x48.png",
-    "default_title": "Web Extentions Sample",
+    "default_title": "Web Extensions Sample",
     "default_popup": "index.html"
   }
 }
