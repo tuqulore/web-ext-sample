@@ -21,7 +21,6 @@
     "@vitejs/plugin-react": "^1.2.0",
     "eslint": "8.11.0",
     "eslint-config-prettier": "8.5.0",
-    "eslint-formatter-rdjson": "1.0.5",
     "eslint-plugin-jest": "26.1.2",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.29.4",
@@ -57,7 +56,6 @@
     "format:eslint": "eslint --fix .",
     "format:prettier": "prettier --write .",
     "lint": "eslint .",
-    "lint:rdjson": "eslint --format rdjson .",
     "serve": "run-s build:vite dev:web-ext",
     "test": "jest --passWithNoTests"
   }
