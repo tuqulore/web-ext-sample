@@ -9,7 +9,7 @@
 
 - [x] Vite による TypeScript+React のビルド
 - [x] web-ext との連携
-- [ ] 動作する Web Extensions の記述
+- [x] 動作する Web Extensions の記述
 
 ## ドキュメント
 
