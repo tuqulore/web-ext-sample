@@ -1,5 +1,5 @@
 function App(): React.ReactElement {
-  return <div />;
+  return <p>Hello World</p>;
 }
 
 export default App;
